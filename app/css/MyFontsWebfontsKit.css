@@ -1,0 +1,262 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2971659, 2015-02-12T23:28:46-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: GalanoClassicAlt-ThinItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-thin-italic/
+ *
+ * Webfont: GalanoClassicAlt-SemiBoldItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-semi-bold-italic/
+ *
+ * Webfont: GalanoClassicAlt-Thin by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-thin/
+ *
+ * Webfont: GalanoClassicAlt-SemiBold by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-semi-bold/
+ *
+ * Webfont: GalanoClassicAlt-MediumItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-medium-italic/
+ *
+ * Webfont: GalanoClassicAlt-Medium by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-medium/
+ *
+ * Webfont: GalanoClassicAlt-LightItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-light-italic/
+ *
+ * Webfont: GalanoClassicAlt-Light by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-light/
+ *
+ * Webfont: GalanoClassicAlt-Italic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-italic/
+ *
+ * Webfont: GalanoClassicAlt-HeavyItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-heavy-italic/
+ *
+ * Webfont: GalanoClassicAlt-Heavy by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-heavy/
+ *
+ * Webfont: GalanoClassicAlt-ExtraLightItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-extra-light-italic/
+ *
+ * Webfont: GalanoClassicAlt-ExtraLight by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-extra-light/
+ *
+ * Webfont: GalanoClassicAlt-ExtraBold by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-extra-bold/
+ *
+ * Webfont: GalanoClassicAlt-ExtraBoldItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-extra-bold-italic/
+ *
+ * Webfont: GalanoClassicAlt-BoldItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-bold-italic/
+ *
+ * Webfont: GalanoClassicAlt-Bold by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-bold/
+ *
+ * Webfont: GalanoClassicAlt-BlackItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-black-italic/
+ *
+ * Webfont: GalanoClassicAlt-Black by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt-black/
+ *
+ * Webfont: GalanoClassicAlt-Regular by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/alt/
+ *
+ * Webfont: GalanoClassic-Regular by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/regular/
+ *
+ * Webfont: GalanoClassic-Black by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/black/
+ *
+ * Webfont: GalanoClassic-BlackItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/black-italic/
+ *
+ * Webfont: GalanoClassic-Bold by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/bold/
+ *
+ * Webfont: GalanoClassic-BoldItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/bold-italic/
+ *
+ * Webfont: GalanoClassic-ExtraBold by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/extra-bold/
+ *
+ * Webfont: GalanoClassic-ExtraBoldItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/extra-bold-italic/
+ *
+ * Webfont: GalanoClassic-ExtraLightItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/extra-light-italic/
+ *
+ * Webfont: GalanoClassic-ExtraLight by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/extra-light/
+ *
+ * Webfont: GalanoClassic-Heavy by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/heavy/
+ *
+ * Webfont: GalanoClassic-HeavyItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/heavy-italic/
+ *
+ * Webfont: GalanoClassic-Italic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/italic/
+ *
+ * Webfont: GalanoClassic-Light by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/light/
+ *
+ * Webfont: GalanoClassic-LightItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/light-italic/
+ *
+ * Webfont: GalanoClassic-Medium by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/medium/
+ *
+ * Webfont: GalanoClassic-MediumItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/medium-italic/
+ *
+ * Webfont: GalanoClassic-SemiBold by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/semi-bold/
+ *
+ * Webfont: GalanoClassic-SemiBoldItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/semi-bold-italic/
+ *
+ * Webfont: GalanoClassic-Thin by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/thin/
+ *
+ * Webfont: GalanoClassic-ThinItalic by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/galano-classic/thin-italic/
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2971659
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright &#x00A9; 2014 by Ren&#x00E9; Bieder. All rights reserved.
+ *
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2d580b");
+
+
+@font-face {font-family: 'GalanoClassicAlt-ThinItalic';src: url('../fonts/webfonts/2D580B_0_0.eot');src: url('../fonts/webfonts/2D580B_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_0_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_0_0.woff') format('woff'),url('../fonts/webfonts/2D580B_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-SemiBoldItalic';src: url('../fonts/webfonts/2D580B_1_0.eot');src: url('../fonts/webfonts/2D580B_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_1_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_1_0.woff') format('woff'),url('../fonts/webfonts/2D580B_1_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-Thin';src: url('../fonts/webfonts/2D580B_2_0.eot');src: url('../fonts/webfonts/2D580B_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_2_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_2_0.woff') format('woff'),url('../fonts/webfonts/2D580B_2_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-SemiBold';src: url('../fonts/webfonts/2D580B_3_0.eot');src: url('../fonts/webfonts/2D580B_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_3_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_3_0.woff') format('woff'),url('../fonts/webfonts/2D580B_3_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-MediumItalic';src: url('../fonts/webfonts/2D580B_4_0.eot');src: url('../fonts/webfonts/2D580B_4_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_4_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_4_0.woff') format('woff'),url('../fonts/webfonts/2D580B_4_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-Medium';src: url('../fonts/webfonts/2D580B_5_0.eot');src: url('../fonts/webfonts/2D580B_5_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_5_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_5_0.woff') format('woff'),url('../fonts/webfonts/2D580B_5_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-LightItalic';src: url('../fonts/webfonts/2D580B_6_0.eot');src: url('../fonts/webfonts/2D580B_6_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_6_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_6_0.woff') format('woff'),url('../fonts/webfonts/2D580B_6_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-Light';src: url('../fonts/webfonts/2D580B_7_0.eot');src: url('../fonts/webfonts/2D580B_7_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_7_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_7_0.woff') format('woff'),url('../fonts/webfonts/2D580B_7_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-Italic';src: url('../fonts/webfonts/2D580B_8_0.eot');src: url('../fonts/webfonts/2D580B_8_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_8_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_8_0.woff') format('woff'),url('../fonts/webfonts/2D580B_8_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-HeavyItalic';src: url('../fonts/webfonts/2D580B_9_0.eot');src: url('../fonts/webfonts/2D580B_9_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_9_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_9_0.woff') format('woff'),url('../fonts/webfonts/2D580B_9_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-Heavy';src: url('../fonts/webfonts/2D580B_A_0.eot');src: url('../fonts/webfonts/2D580B_A_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_A_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_A_0.woff') format('woff'),url('../fonts/webfonts/2D580B_A_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-ExtraLightItalic';src: url('../fonts/webfonts/2D580B_B_0.eot');src: url('../fonts/webfonts/2D580B_B_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_B_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_B_0.woff') format('woff'),url('../fonts/webfonts/2D580B_B_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-ExtraLight';src: url('../fonts/webfonts/2D580B_C_0.eot');src: url('../fonts/webfonts/2D580B_C_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_C_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_C_0.woff') format('woff'),url('../fonts/webfonts/2D580B_C_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-ExtraBold';src: url('../fonts/webfonts/2D580B_D_0.eot');src: url('../fonts/webfonts/2D580B_D_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_D_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_D_0.woff') format('woff'),url('../fonts/webfonts/2D580B_D_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-ExtraBoldItalic';src: url('../fonts/webfonts/2D580B_E_0.eot');src: url('../fonts/webfonts/2D580B_E_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_E_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_E_0.woff') format('woff'),url('../fonts/webfonts/2D580B_E_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-BoldItalic';src: url('../fonts/webfonts/2D580B_F_0.eot');src: url('../fonts/webfonts/2D580B_F_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_F_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_F_0.woff') format('woff'),url('../fonts/webfonts/2D580B_F_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-Bold';src: url('../fonts/webfonts/2D580B_10_0.eot');src: url('../fonts/webfonts/2D580B_10_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_10_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_10_0.woff') format('woff'),url('../fonts/webfonts/2D580B_10_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-BlackItalic';src: url('../fonts/webfonts/2D580B_11_0.eot');src: url('../fonts/webfonts/2D580B_11_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_11_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_11_0.woff') format('woff'),url('../fonts/webfonts/2D580B_11_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-Black';src: url('../fonts/webfonts/2D580B_12_0.eot');src: url('../fonts/webfonts/2D580B_12_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_12_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_12_0.woff') format('woff'),url('../fonts/webfonts/2D580B_12_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassicAlt-Regular';src: url('../fonts/webfonts/2D580B_13_0.eot');src: url('../fonts/webfonts/2D580B_13_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_13_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_13_0.woff') format('woff'),url('../fonts/webfonts/2D580B_13_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-Regular';src: url('../fonts/webfonts/2D580B_14_0.eot');src: url('../fonts/webfonts/2D580B_14_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_14_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_14_0.woff') format('woff'),url('../fonts/webfonts/2D580B_14_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-Black';src: url('../fonts/webfonts/2D580B_15_0.eot');src: url('../fonts/webfonts/2D580B_15_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_15_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_15_0.woff') format('woff'),url('../fonts/webfonts/2D580B_15_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-BlackItalic';src: url('../fonts/webfonts/2D580B_16_0.eot');src: url('../fonts/webfonts/2D580B_16_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_16_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_16_0.woff') format('woff'),url('../fonts/webfonts/2D580B_16_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-Bold';src: url('../fonts/webfonts/2D580B_17_0.eot');src: url('../fonts/webfonts/2D580B_17_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_17_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_17_0.woff') format('woff'),url('../fonts/webfonts/2D580B_17_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-BoldItalic';src: url('../fonts/webfonts/2D580B_18_0.eot');src: url('../fonts/webfonts/2D580B_18_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_18_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_18_0.woff') format('woff'),url('../fonts/webfonts/2D580B_18_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-ExtraBold';src: url('../fonts/webfonts/2D580B_19_0.eot');src: url('../fonts/webfonts/2D580B_19_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_19_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_19_0.woff') format('woff'),url('../fonts/webfonts/2D580B_19_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-ExtraBoldItalic';src: url('../fonts/webfonts/2D580B_1A_0.eot');src: url('../fonts/webfonts/2D580B_1A_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_1A_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_1A_0.woff') format('woff'),url('../fonts/webfonts/2D580B_1A_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-ExtraLightItalic';src: url('../fonts/webfonts/2D580B_1B_0.eot');src: url('../fonts/webfonts/2D580B_1B_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_1B_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_1B_0.woff') format('woff'),url('../fonts/webfonts/2D580B_1B_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-ExtraLight';src: url('../fonts/webfonts/2D580B_1C_0.eot');src: url('../fonts/webfonts/2D580B_1C_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_1C_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_1C_0.woff') format('woff'),url('../fonts/webfonts/2D580B_1C_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-Heavy';src: url('../fonts/webfonts/2D580B_1D_0.eot');src: url('../fonts/webfonts/2D580B_1D_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_1D_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_1D_0.woff') format('woff'),url('../fonts/webfonts/2D580B_1D_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-HeavyItalic';src: url('../fonts/webfonts/2D580B_1E_0.eot');src: url('../fonts/webfonts/2D580B_1E_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_1E_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_1E_0.woff') format('woff'),url('../fonts/webfonts/2D580B_1E_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-Italic';src: url('../fonts/webfonts/2D580B_1F_0.eot');src: url('../fonts/webfonts/2D580B_1F_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_1F_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_1F_0.woff') format('woff'),url('../fonts/webfonts/2D580B_1F_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-Light';src: url('../fonts/webfonts/2D580B_20_0.eot');src: url('../fonts/webfonts/2D580B_20_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_20_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_20_0.woff') format('woff'),url('../fonts/webfonts/2D580B_20_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-LightItalic';src: url('../fonts/webfonts/2D580B_21_0.eot');src: url('../fonts/webfonts/2D580B_21_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_21_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_21_0.woff') format('woff'),url('../fonts/webfonts/2D580B_21_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-Medium';src: url('../fonts/webfonts/2D580B_22_0.eot');src: url('../fonts/webfonts/2D580B_22_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_22_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_22_0.woff') format('woff'),url('../fonts/webfonts/2D580B_22_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-MediumItalic';src: url('../fonts/webfonts/2D580B_23_0.eot');src: url('../fonts/webfonts/2D580B_23_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_23_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_23_0.woff') format('woff'),url('../fonts/webfonts/2D580B_23_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-SemiBold';src: url('../fonts/webfonts/2D580B_24_0.eot');src: url('../fonts/webfonts/2D580B_24_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_24_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_24_0.woff') format('woff'),url('../fonts/webfonts/2D580B_24_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-SemiBoldItalic';src: url('../fonts/webfonts/2D580B_25_0.eot');src: url('../fonts/webfonts/2D580B_25_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_25_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_25_0.woff') format('woff'),url('../fonts/webfonts/2D580B_25_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-Thin';src: url('../fonts/webfonts/2D580B_26_0.eot');src: url('../fonts/webfonts/2D580B_26_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_26_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_26_0.woff') format('woff'),url('../fonts/webfonts/2D580B_26_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GalanoClassic-ThinItalic';src: url('../fonts/webfonts/2D580B_27_0.eot');src: url('../fonts/webfonts/2D580B_27_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2D580B_27_0.woff2') format('woff2'),url('../fonts/webfonts/2D580B_27_0.woff') format('woff'),url('../fonts/webfonts/2D580B_27_0.ttf') format('truetype');}
+ 

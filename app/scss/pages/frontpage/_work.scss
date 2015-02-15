@@ -1,0 +1,86 @@
+.work {
+  .item {
+    height: 500px;
+    background: black;
+    text-align: center;
+    background-size: cover;
+
+    &:before {
+      content: '';
+      height: 100%;
+      width: 100%;
+      background: transparentize(black, .5);
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: 1.5s;
+    }
+
+    &:hover {
+      transition: 3s;
+      cursor: pointer;
+
+      &.foliomatch,
+      &.briefcase,
+      &.omnibox {
+        transition: 5s;
+        // background-size: 150%;
+      }
+
+      &:before {
+        content: '';
+        transition: 1.5s;
+        height: 100%;
+        width: 100%;
+        background: transparentize(black, .2);
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    &.briefcase {
+      // background: blue;
+      background-image: url("../images/briefcase.jpg");
+
+      transition: 3s;
+    }
+
+    &.omnibox {
+      background-image: url("../images/omnibox.jpg");
+    }
+
+    &.lost-paradise {
+      background-image: url('../images/lost-paradise.jpg');
+      background-position: center;
+    }
+
+    .copy {
+      position: relative;
+      top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+
+        h2,
+        p {
+          color: white;
+          font-family: $light;
+        }
+
+        h2 {
+          font-family: $thin;
+          margin-bottom: 25px;
+          text-transform: uppercase;
+          letter-spacing: .2em;
+        }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .item {
+    width: 100%;
+    transition: 0s;
+  }
+}

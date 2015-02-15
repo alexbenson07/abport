@@ -1,0 +1,67 @@
+footer {
+  background: url("../images/kc-1900.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  position: relative;
+  height: 600px;
+  margin-top: -5px; //TODO why do i need to keep doing this shit!?!?!
+  // position: fixed;
+  // bottom: 0;
+  // width: 100%;
+  // z-index: -100;
+  .copy {
+    text-align: center;
+    position: relative;
+    top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+
+      ul.inline-list {
+        // margin: 0;
+        li {
+          width: (100%/6);
+          text-align: center;
+          margin: 50px 0px;
+          font-size: 24px;
+
+          &:after {
+            content: '';
+            height: 2px;
+            width: 0%;
+            background: black;
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            transition: .3s ease;
+            text-align: center;
+          }
+
+          &:hover{
+            cursor: pointer;
+              &:after {
+                width: 100%;
+              }
+          }
+        }
+      }
+
+    h4 {
+      font-family: $light;
+    }
+
+    .small {
+      font-family: $ex-light;
+    }
+  }
+
+  &:before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: transparentize(white, .3);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}

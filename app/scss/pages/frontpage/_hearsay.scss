@@ -1,0 +1,108 @@
+.hearsay {
+  height: 360px;
+  background: black;
+  margin-top: 1000px; //TODO Why do I need this?!?!
+  // margin-bottom: 600px;
+  overflow-x: hidden;
+
+
+
+  .apostrophe {
+    position: absolute;
+    left: -60px;
+    top: -75px;
+    height: auto;
+    width: 230px;
+    opacity: .5;
+    transition: 5s ease;
+
+
+    &.right {
+      right: -60px;
+      left: auto;
+      transform:rotate(180deg);
+    }
+  }
+  .copy {
+    position: relative;
+    top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    h4,
+    p,
+    h6 {
+      color: white;
+      text-align: center;
+    }
+
+    .section-title {
+      font-family: $accent-type;
+      font-size: 22px;
+      letter-spacing: .3em;
+      text-transform: uppercase;
+      position: relative;
+      top: -35px;
+      transition: 5s ease;
+    }
+
+    .quote {
+      font-family: $light;
+      font-size: 24px;
+      letter-spacing: .1em;
+    }
+
+    .author {
+      font-family: $accent-type;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: .07em;
+    }
+  }
+
+  &:hover {
+    .apostrophe {
+      left: -55px;
+      transition: 5s;
+      width: 300px;
+      opacity: .8;
+
+      &.right {
+        right: -55px;
+        left: auto;
+      }
+    }
+
+    .copy {
+      .section-title {
+        letter-spacing: .5em;
+        transition: 5s;
+        // font-size: 36px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .hearsay {
+
+    .apostrophe {
+      top: 0px;
+
+      &:hover {
+        width: 230px;
+      }
+    }
+    .copy {
+      .section-title {
+        letter-spacing: .3em;
+      }
+      .quote {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+// colors
+$gray: #333;
+$lightgray: #ccc;
+
+h1,
+h2,
+// h3,
+// h4,
+// h5,
+// h6
+{
+  font-weight: 100;
+}
+
+.row {
+  max-width: 2000px;
+  .content {
+
+  }
+}
+
+// Typography
+$accent-type: "Fjalla One", Tahoma, Geneva, sans-serif;
+$light: "GalanoClassic-Light", Helvetica, sans-serif;
+$ex-light: "GalanoClassic-ExtraLight", Helvetica, sans-serif;
+$regular: "GalanoClassic-Regular", Helvetica, sans-serif;
+$thin: "GalanoClassic-Thin", Helvetica, sans-serif;
+$bold: "GalanoClassic-Bold", Helvetica, sans-serif;

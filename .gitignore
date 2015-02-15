@@ -1,0 +1,7 @@
+node_modules
+.tmp
+app/bower_components
+.sass-cache
+app/images/50thStateFair2012.mp4
+app/images/50thStateFair2012.webm
+.DS_STORE
