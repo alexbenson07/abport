@@ -22,12 +22,13 @@
       i {
         font-size: 34px;
         margin-bottom: 25px;
-        color: #ccc;
+        color: #aaa;
       }
       li {
-        color: #ccc;
+        color: #aaa;
       }
-      &:hover {
+      &:hover,
+      &.clicked {
         transition: 1s;
         cursor: pointer;
 

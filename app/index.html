@@ -19,6 +19,7 @@
     <!-- build:js js/vendor/modernizr.min.js-->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild-->
+    <link rel="stylesheet" href="js/reportcard/js/reportcard.css">
   </head>
   <body>
     <div class="row layout-home">
@@ -32,8 +33,9 @@
       </div>
       <div class="hero">
         <video preload autoplay muted loop poster="images/poster.jpg" class="hero-video">
-          <source src="images/50thStateFair2012.webm" type="video/webm">
-          <source src="images/50thStateFair2012.mp4" type="video/mp4">
+          <source src="images/hero-video1.webm" type="video/webm">
+          <source src="images/hero-video1.ogg" type="video/ogg">
+          <source src="images/hero-video1.mp4" type="video/mp4">
         </video>
         <p class="hero-description">My name is Alex Benson and I am skilled in</p>
         <h1 class="hero-title">Graphic Design</h1><i class="fa fa-chevron-down down-arrow"></i>
@@ -43,22 +45,28 @@
           <h3 class="section-title">Services</h3>
           <ul class="inline-list">
             <div class="wrapper"><i class="icon-pencil"></i>
-              <li>Development</li>
-            </div>
-            <div class="wrapper"><i class="icon-strategy"></i>
-              <li>User Experience</li>
-            </div>
-            <div class="wrapper"><i class="icon-genius"></i>
               <li>Graphic Design</li>
             </div>
+            <div class="wrapper"><i class="icon-genius"></i>
+              <li>User Experience</li>
+            </div>
             <div class="wrapper"><i class="icon-gears"></i>
+              <li>Web Development</li>
+            </div>
+            <div class="wrapper"><i class="icon-strategy"></i>
               <li>Identity Design</li>
             </div>
           </ul>
-          <p class="small-10 small-centered columns">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+          <p class="small-10 small-centered columns">My favorite part of graphic designing is that you can create anything. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
         </div>
       </div>
       <div class="work">
+        <div class="item lost-paradise small-12 columns">
+          <div class="copy small-8 small-centered columns">
+            <h2>Lost Paradise</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+          </div>
+        </div>
         <div class="item briefcase small-6 columns">
           <div class="copy small-10 small-centered columns">
             <h2>Briefcase</h2>
@@ -71,19 +79,16 @@
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
           </div>
         </div>
-        <div class="item lost-paradise small-12 columns">
-          <div class="copy small-10 small-centered columns">
-            <h2>Lost Paradise</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-          </div>
-        </div>
       </div>
       <div class="hearsay small-12">
         <div class="copy"><img src="images/apostrophe.png" class="apostrophe">
           <h4 class="section-title">Hearsay</h4>
-          <p class="quote">Alex is an incredible designer and he kicks ass at cooking bacon too.</p>
+          <p class="quote">Alex is an incredible designer and he kicks ass at cooking bacon, too.</p>
           <h6 class="author">Nick Mallare, Briefcase</h6><img src="images/apostrophe.png" class="apostrophe right">
         </div>
+      </div>
+      <div class="badges small-10 small-centered">
+        <div class="report-card treehouse"></div>
       </div>
     </div>
   </body>
@@ -131,4 +136,6 @@
   <!-- build:js js/app.min.js-->
   <script src="js/app.js"></script>
   <!-- endbuild-->
+  <script src="js/reportcard/js/reportcard.js"></script>
+  <script src="js/badge-init.js"></script>
 </html>

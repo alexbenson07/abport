@@ -89,11 +89,20 @@
 
     .apostrophe {
       top: 0px;
+    }
 
-      &:hover {
+    &:hover {
+      .apostrophe {
         width: 230px;
       }
+
+      .copy {
+        .section-title {
+          letter-spacing: .3em;
+        }
+      }
     }
+
     .copy {
       .section-title {
         letter-spacing: .3em;
