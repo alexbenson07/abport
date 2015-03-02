@@ -24,12 +24,21 @@
   <body>
     <div class="row layout-home">
       <div class="navbar">
-        <ul><a> 
-            <li>About</li></a><a> 
-            <li>Skills</li></a><a>
-            <li class="logo"></li></a><a> 
-            <li>Work</li></a><a> 
-            <li>Contact</li></a></ul>
+        <ul><a data-reveal-id="menu">
+            <li class="logo"></li></a>
+        </ul>
+        <div id="menu" data-reveal class="reveal-modal full close-reveal-modal">
+          <div class="menu small-12 columns">
+            <div class="container small-10 small-centered columns">
+              <ul class="small-6 columns no-bullet nav-items"><a href="/">Home</a><a href="#services">Services</a><a href="#work">Work</a><a href="#hearsay">Testimonials</a><a href="">Resume</a><a href="">Portfolio</a>
+              </ul>
+              <div class="contact right text-right small-6 columns"><a href="mailto:alex@stu.aii.edu" class="email">alex@stu.aii.edu</a><a href="tel:816.204.7981" class="phone">816.204.7981</a>
+                <p class="first">Born and Raised</p>
+                <p>in the Midwest</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="hero">
         <video preload autoplay muted loop poster="images/poster.jpg" class="hero-video">
@@ -40,27 +49,28 @@
         <p class="hero-description">My name is Alex Benson and I am skilled in</p>
         <h1 class="hero-title">Graphic Design</h1><i class="fa fa-chevron-down down-arrow"></i>
       </div>
-      <div class="content">
+      <div id="services" class="content">
         <div class="services small-10 small-centered columns">
           <h3 class="section-title">Services</h3>
           <ul class="inline-list">
-            <div class="wrapper"><i class="icon-pencil"></i>
+            <div data-service="design" class="service-wrapper hover"><i class="icon-pencil"></i>
               <li>Graphic Design</li>
             </div>
-            <div class="wrapper"><i class="icon-genius"></i>
+            <div data-service="ux" class="service-wrapper"><i class="icon-genius"></i>
               <li>User Experience</li>
             </div>
-            <div class="wrapper"><i class="icon-gears"></i>
+            <div data-service="dev" class="service-wrapper"><i class="icon-gears"></i>
               <li>Web Development</li>
             </div>
-            <div class="wrapper"><i class="icon-strategy"></i>
+            <div data-service="identity" class="service-wrapper"><i class="icon-strategy"></i>
               <li>Identity Design</li>
             </div>
           </ul>
-          <p class="small-10 small-centered columns">My favorite part of graphic designing is that you can create anything. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+          <p class="small-10 small-centered columns service-copy">Design excites me. Seeing something start as just an idea or scribble on a napkin and watching it take shape and grow into a living thing, its the best part of graphic design. Its what makes the hours of research and discovery, failed attempts and crumpled up sketches worth it. There’s nothing better than seeing your work have a positive impact for your client and their customers. I strive to make something better everytime. Thats what keeps me motivated.</p>
+          <p class="small-5 small-centered columns"> <a href="/resume">Check Out More On My Resume</a></p>
         </div>
       </div>
-      <div class="work">
+      <div id="work" class="work">
         <div class="item lost-paradise small-12 columns">
           <div class="copy small-8 small-centered columns">
             <h2>Lost Paradise</h2>
@@ -76,35 +86,32 @@
         <div class="item omnibox small-6 columns">
           <div class="copy small-10 small-centered columns">
             <h2>OmniBox.tv</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+            <p>|Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
           </div>
         </div>
       </div>
-      <div class="hearsay small-12">
+      <div id="hearsay" class="hearsay small-12 columns">
         <div class="copy"><img src="images/apostrophe.png" class="apostrophe">
           <h4 class="section-title">Hearsay</h4>
           <p class="quote">Alex is an incredible designer and he kicks ass at cooking bacon, too.</p>
           <h6 class="author">Nick Mallare, Briefcase</h6><img src="images/apostrophe.png" class="apostrophe right">
         </div>
       </div>
-      <div class="badges small-10 small-centered">
-        <div class="report-card treehouse"></div>
-      </div>
     </div>
   </body>
   <footer>
-    <div class="copy small-10 small-centered columns">
-      <h3 class="section-title">Contact</h3>
-      <ul class="inline-list small-8 small-centered columns">
-        <li><i class="fa fa-twitter"></i></li>
-        <li><i class="fa fa-behance"></i></li>
-        <li><i class="fa fa-instagram"></i></li>
-        <li><i class="fa fa-codepen"></i></li>
-        <li><i class="fa fa-facebook"></i></li>
-        <li><i class="fa fa-linkedin"></i></li>
-      </ul>
-      <h4>hello@alexbenson.me</h4>
-      <p class="small">I am currently looking for freelance work, contact me!</p>
+    <div class="container small-10 small-centered columns clearfix">
+      <div class="left name text-left">
+        <h3>Alex Benson</h3>
+        <p>Full Stack Designer</p>
+      </div>
+      <div class="right contact text-right"><a>alexbenson@stu.aii.edi</a><a>816.204.7981</a>
+        <p>KCMO and MPLS</p>
+      </div>
+    </div>
+    <div class="container-bottom small-10 small-centered columns clearfix">
+      <div class="bar"></div>
+      <div class="left copyright">© Alex Benson. All rights reserved. Made in the Midwest 2015</div>
     </div>
   </footer>
   <!-- build:js js/vendor/libraries.min.js-->
@@ -137,5 +144,12 @@
   <script src="js/app.js"></script>
   <!-- endbuild-->
   <script src="js/reportcard/js/reportcard.js"></script>
-  <script src="js/badge-init.js"></script>
+  <script>
+    $('.report-card.treehouse').reportCard({
+      userName: 'alexbenson',
+      site: 'treehouse',
+      badgesAmount: 30
+    });
+  </script>
+  <script src="js/frontpage.js"></script>
 </html>

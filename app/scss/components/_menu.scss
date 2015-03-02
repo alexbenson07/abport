@@ -1,0 +1,55 @@
+#menu {
+  position: fixed;
+
+
+  .menu {
+    top: 25%;
+
+    .nav-items {
+      a {
+        font-size: 34px;
+        color: $midgray;
+        transition: .3s ease;
+        display: block;
+        font-family: $light;
+        text-transform: uppercase;
+
+        &:hover {
+          color: $black;
+          cursor: pointer;
+          letter-spacing: .05em;
+        }
+      }
+    }
+    .contact {
+      a {
+        color: $midgray;
+        display: block;
+        line-height: 44px;
+        font-family: $light;
+
+        &.email,
+        &.phone {
+          font-size: 22px;
+          transition: .3s;
+
+          &:hover {
+            color: $black;
+            cursor: pointer;
+            letter-spacing: .05em;
+          }
+        }
+        &.phone {
+          font-size: 18px;
+        }
+      }
+      p {
+        margin: 0;
+
+        &.first {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}

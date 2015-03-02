@@ -12,6 +12,7 @@ var app = (function(document, $) {
             $(document).on('click', '#start-jr', function () {
                 $(document).foundation('joyride', 'start');
             });
+						
 			_userAgentInit();
 		};
 	return {

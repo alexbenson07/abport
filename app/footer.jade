@@ -1,25 +1,18 @@
 footer
-  .copy.small-10.small-centered.columns
-    h3.section-title Contact
+  .container.small-10.small-centered.columns.clearfix
+    .left.name.text-left
+      h3 Alex Benson
+      p Full Stack Designer
+    .right.contact.text-right
+      a alexbenson@stu.aii.edi
+      a 816.204.7981
+      p KCMO and MPLS
+      
+  .container-bottom.small-10.small-centered.columns.clearfix
+    .bar
+    .left.copyright
+      © Alex Benson. All rights reserved. Made in the Midwest #{new Date().getFullYear()}
     
-    ul.inline-list.small-8.small-centered.columns
-      li
-        i.fa.fa-twitter
-      li
-        i.fa.fa-behance
-      li
-        i.fa.fa-instagram
-      li
-        i.fa.fa-codepen
-      li
-        i.fa.fa-facebook
-      li
-        i.fa.fa-linkedin
-      //- li
-      //-   i.fa.fa-
-  
-    h4 hello@alexbenson.me
-    p.small I am currently looking for freelance work, contact me!
 
 // build:js js/vendor/libraries.min.js
 // bower:js
@@ -51,4 +44,9 @@ script(src="bower_components/foundation/js/foundation/foundation.topbar.js")
 script(src="js/app.js")
 // endbuild
 script(src="js/reportcard/js/reportcard.js")
-script(src="js/badge-init.js")
+script.
+  $('.report-card.treehouse').reportCard({
+    userName: 'alexbenson',
+    site: 'treehouse',
+    badgesAmount: 30
+  });

@@ -6,25 +6,27 @@ html(class="no-js", lang="en")
       include navbar
       include hero
       
-      .content
+      #services.content
         .services.small-10.small-centered.columns
           h3.section-title Services
           ul.inline-list
-            .wrapper
+            .service-wrapper.hover(data-service='design')
               i.icon-pencil
               li Graphic Design
-            .wrapper
+            .service-wrapper(data-service='ux')
               i.icon-genius
               li User Experience
-            .wrapper
+            .service-wrapper(data-service='dev')
               i.icon-gears
               li Web Development
-            .wrapper
+            .service-wrapper(data-service='identity')
               i.icon-strategy
               li Identity Design
-          p.small-10.small-centered.columns My favorite part of graphic designing is that you can create anything. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+          p.small-10.small-centered.columns.service-copy Design excites me. Seeing something start as just an idea or scribble on a napkin and watching it take shape and grow into a living thing, its the best part of graphic design. Its what makes the hours of research and discovery, failed attempts and crumpled up sketches worth it. There’s nothing better than seeing your work have a positive impact for your client and their customers. I strive to make something better everytime. Thats what keeps me motivated.
+          p.small-5.small-centered.columns 
+            a(href="/resume") Check Out More On My Resume
       
-      .work
+      #work.work
         .item.lost-paradise.small-12.columns
           .copy.small-8.small-centered.columns
             h2 Lost Paradise
@@ -36,14 +38,15 @@ html(class="no-js", lang="en")
         .item.omnibox.small-6.columns
           .copy.small-10.small-centered.columns
             h2 OmniBox.tv
-            p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
-      .hearsay.small-12
+            p |Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+      #hearsay.hearsay.small-12.columns
         .copy
           img.apostrophe(src="images/apostrophe.png")
           h4.section-title Hearsay
           p.quote Alex is an incredible designer and he kicks ass at cooking bacon, too.
           h6.author Nick Mallare, Briefcase
           img.apostrophe.right(src="images/apostrophe.png")
-      .badges.small-10.small-centered
+      //- .badges.small-12.columns
         .report-card.treehouse
   include footer
+  script(src='js/frontpage.js')

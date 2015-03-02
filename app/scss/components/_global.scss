@@ -11,8 +11,16 @@ p {
 }
 
 
+
+
 li {
   font-family: $light;
   text-transform: uppercase;
   font-size: 12px;
+}
+
+
+.off {
+  opacity: 0;
+  transition: .3s ease;
 }

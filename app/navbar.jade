@@ -1,12 +1,29 @@
 .navbar
   ul
-    a 
-      li About
-    a 
-      li Skills
-    a
+    //- a 
+    //-   li About
+    //- a 
+    //-   li Skills
+    a(data-reveal-id="menu")
       li.logo
-    a 
-      li Work
-    a 
-      li Contact
+    //- a 
+    //-   li Work
+    //- a 
+    //-   li Contact
+  #menu.reveal-modal.full.close-reveal-modal(data-reveal)
+    .menu.small-12.columns
+      .container.small-10.small-centered.columns
+        ul.small-6.columns.no-bullet.nav-items
+          //- each item in ['Home', 'Services', 'Work', 'Testimonials', 'Resume', 'Portfolio']
+          //-   a= item
+          a(href="/") Home
+          a(href="#services") Services
+          a(href="#work") Work
+          a(href="#hearsay") Testimonials
+          a(href="") Resume
+          a(href="") Portfolio
+        .contact.right.text-right.small-6.columns
+          a.email(href="mailto:alex@stu.aii.edu") alex@stu.aii.edu
+          a.phone(href="tel:816.204.7981") 816.204.7981
+          p.first Born and Raised
+          p in the Midwest

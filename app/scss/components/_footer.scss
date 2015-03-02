@@ -1,61 +1,43 @@
 footer {
-  background: url("../images/kc-1900.jpg");
+  background: url("../images/footer-img.jpg");
   background-size: cover;
-  background-position: bottom center;
+  background-position: center center;
   position: relative;
-  height: 600px;
-  margin-top: -5px; //TODO why do i need to keep doing this shit!?!?!
-  // position: fixed;
-  // bottom: 0;
-  // width: 100%;
-  // z-index: -100;
-  .copy {
-    text-align: center;
-    position: relative;
-    top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
+  min-height: 300px;
 
-      ul.inline-list {
-        // margin: 0;
-        li {
-          width: (100%/6);
-          text-align: center;
-          margin: 50px 0px;
-          font-size: 24px;
+  .container {
+    color: $black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .name {
 
-          &:after {
-            content: '';
-            height: 2px;
-            width: 0%;
-            background: black;
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            transition: .3s ease;
-            text-align: center;
-          }
-
-          &:hover{
-            cursor: pointer;
-              &:after {
-                width: 100%;
-              }
-          }
-        }
-      }
-
-    h4 {
-      font-family: $light;
     }
 
-    .small {
-      font-family: $ex-light;
+    .right {
+
+      a,
+      p {
+        color: $black;
+        display: block;
+      }
     }
   }
 
-  &:before {
+  .container-bottom {
+    position: relative;
+    bottom: 50px;
+
+    .bar {
+      width: 100%;
+      height: 1px;
+      background: black;
+      margin-top: 100px;
+    }
+  }
+
+
+
+  /* &:before {
     content: '';
     height: 100%;
     width: 100%;
@@ -63,5 +45,5 @@ footer {
     position: absolute;
     top: 0;
     left: 0;
-  }
+  } */
 }

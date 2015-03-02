@@ -40,11 +40,12 @@
     color: white;
     text-shadow: 1px 1px $gray;
     text-align: center;
-    position: relative;
+    position: relative; //TODO Make this absolute so both h1s can sit on top of each other
     top: 45%;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
+    transition: .3s ease;
   }
   .hero-description {
     font-size: 22px;
@@ -76,6 +77,7 @@
   margin-top: 100vh;
   background: white;
   padding: 100px 10%;
+  
 }
 
 

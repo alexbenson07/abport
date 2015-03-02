@@ -8032,6 +8032,11 @@ li {
   font-size: 12px;
 }
 
+.off {
+  opacity: 0;
+  transition: .3s ease;
+}
+
 .navbar {
   top: 0;
   z-index: 500;
@@ -8082,58 +8087,84 @@ li {
 }
 
 footer {
-  background: url("../images/kc-1900.jpg");
+  background: url("../images/footer-img.jpg");
   background-size: cover;
-  background-position: bottom center;
+  background-position: center center;
   position: relative;
-  height: 600px;
-  margin-top: -5px;
+  min-height: 300px;
+  /* &:before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: transparentize(white, .3);
+    position: absolute;
+    top: 0;
+    left: 0;
+  } */
 }
-footer .copy {
-  text-align: center;
+footer .container {
+  color: #000000;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+footer .container .right a,
+footer .container .right p {
+  color: #000000;
+  display: block;
+}
+footer .container-bottom {
   position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  bottom: 50px;
 }
-footer .copy ul.inline-list li {
-  width: 16.66667%;
-  text-align: center;
-  margin: 50px 0px;
-  font-size: 24px;
-}
-footer .copy ul.inline-list li:after {
-  content: '';
-  height: 2px;
-  width: 0%;
-  background: black;
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  transition: .3s ease;
-  text-align: center;
-}
-footer .copy ul.inline-list li:hover {
-  cursor: pointer;
-}
-footer .copy ul.inline-list li:hover:after {
+footer .container-bottom .bar {
   width: 100%;
+  height: 1px;
+  background: black;
+  margin-top: 100px;
 }
-footer .copy h4 {
+
+#menu {
+  position: fixed;
+}
+#menu .menu {
+  top: 25%;
+}
+#menu .menu .nav-items a {
+  font-size: 34px;
+  color: #898989;
+  transition: .3s ease;
+  display: block;
+  font-family: "GalanoClassic-Light", Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+#menu .menu .nav-items a:hover {
+  color: #000000;
+  cursor: pointer;
+  letter-spacing: .05em;
+}
+#menu .menu .contact a {
+  color: #898989;
+  display: block;
+  line-height: 44px;
   font-family: "GalanoClassic-Light", Helvetica, sans-serif;
 }
-footer .copy .small {
-  font-family: "GalanoClassic-ExtraLight", Helvetica, sans-serif;
+#menu .menu .contact a.email, #menu .menu .contact a.phone {
+  font-size: 22px;
+  transition: .3s;
 }
-footer:before {
-  content: '';
-  height: 100%;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.7);
-  position: absolute;
-  top: 0;
-  left: 0;
+#menu .menu .contact a.email:hover, #menu .menu .contact a.phone:hover {
+  color: #000000;
+  cursor: pointer;
+  letter-spacing: .05em;
+}
+#menu .menu .contact a.phone {
+  font-size: 18px;
+}
+#menu .menu .contact p {
+  margin: 0;
+}
+#menu .menu .contact p.first {
+  margin-top: 30px;
 }
 
 .layout-home .hero {
@@ -8176,6 +8207,7 @@ footer:before {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  transition: .3s ease;
 }
 .layout-home .hero .hero-description {
   font-size: 22px;
@@ -8230,7 +8262,7 @@ footer:before {
   display: flex;
   text-justify: center;
 }
-.layout-home .services ul .wrapper {
+.layout-home .services ul .service-wrapper {
   align-self: center;
   width: 24.75%;
   margin: 0;
@@ -8238,28 +8270,51 @@ footer:before {
   display: inline-block;
   transition: 1s ease;
 }
-.layout-home .services ul .wrapper i {
+.layout-home .services ul .service-wrapper i {
   font-size: 34px;
   margin-bottom: 25px;
   color: #aaa;
 }
-.layout-home .services ul .wrapper li {
+.layout-home .services ul .service-wrapper li {
   color: #aaa;
 }
-.layout-home .services ul .wrapper:hover, .layout-home .services ul .wrapper.clicked {
+.layout-home .services ul .service-wrapper.hover {
   transition: 1s;
   cursor: pointer;
 }
-.layout-home .services ul .wrapper:hover i, .layout-home .services ul .wrapper.clicked i {
+.layout-home .services ul .service-wrapper.hover i {
   color: black;
 }
-.layout-home .services ul .wrapper:hover li, .layout-home .services ul .wrapper.clicked li {
+.layout-home .services ul .service-wrapper.hover li {
   font-family: "GalanoClassic-Regular", Helvetica, sans-serif;
   color: black;
 }
-.layout-home .services p {
+.layout-home .services p,
+.layout-home .services a {
   margin: 50px auto 0;
   text-align: center;
+}
+.layout-home .services p.service-copy,
+.layout-home .services a.service-copy {
+  min-height: 150px;
+}
+.layout-home a {
+  font-family: "GalanoClassic-Regular", Helvetica, sans-serif;
+  color: #000000;
+  transition: 1s ease;
+}
+.layout-home a:after {
+  content: '';
+  height: 1px;
+  width: 0%;
+  background: black;
+  display: block;
+}
+.layout-home a:hover {
+  transition: 1s ease;
+}
+.layout-home a:hover:after {
+  width: 100%;
 }
 @media screen and (max-width: 800px) {
   .layout-home .services ul {
@@ -8353,7 +8408,6 @@ footer:before {
 .layout-home .hearsay {
   height: 360px;
   background: black;
-  margin-top: 1000px;
   overflow-x: hidden;
 }
 .layout-home .hearsay .apostrophe {
@@ -8435,6 +8489,9 @@ footer:before {
     margin: 0 auto;
     margin-bottom: 30px;
   }
+}
+.layout-home .badges {
+  background: #FFFFFF;
 }
 
 /*# sourceMappingURL=app.css.map */
