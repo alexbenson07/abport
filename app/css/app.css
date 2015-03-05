@@ -8151,7 +8151,29 @@ footer .fa:hover {
   position: fixed;
 }
 #menu .menu {
-  top: 25%;
+  /* top: 25%; */
+}
+#menu .menu .logo {
+  height: 110px;
+  width: 110px;
+  background: url(../images/logo-dark.png) no-repeat center;
+  background-size: contain;
+  transition: .5s ease;
+  margin: 0 auto;
+  margin-bottom: 10%;
+  position: initial;
+}
+#menu .menu .logo:after {
+  content: 'Click To Close';
+  height: 10px;
+  width: 100%;
+  color: black;
+  font-size: 11px;
+  position: relative;
+  bottom: -100px;
+  left: 9px;
+  text-transform: uppercase;
+  /* opacity: 0; */
 }
 #menu .menu .nav-items a {
   font-size: 34px;
@@ -8161,10 +8183,25 @@ footer .fa:hover {
   font-family: "GalanoClassic-Light", Helvetica, sans-serif;
   text-transform: uppercase;
 }
+#menu .menu .nav-items a.comingsoon {
+  transition: .5s ease;
+}
+#menu .menu .nav-items a.comingsoon:after {
+  content: 'Coming Soon';
+  color: transparent;
+  font-size: 15px;
+  position: relative;
+  left: -40px;
+}
 #menu .menu .nav-items a:hover {
   color: #000000;
   cursor: pointer;
   letter-spacing: .05em;
+}
+#menu .menu .nav-items a:hover.comingsoon:after {
+  color: #9B9B9B;
+  left: 30px;
+  letter-spacing: 0.3em;
 }
 #menu .menu .contact a {
   color: #898989;
