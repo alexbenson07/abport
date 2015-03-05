@@ -8183,15 +8183,13 @@ footer .fa:hover {
   font-family: "GalanoClassic-Light", Helvetica, sans-serif;
   text-transform: uppercase;
 }
-#menu .menu .nav-items a.comingsoon {
-  transition: .5s ease;
-}
 #menu .menu .nav-items a.comingsoon:after {
   content: 'Coming Soon';
   color: transparent;
   font-size: 15px;
   position: relative;
   left: -40px;
+  transition: .5s ease;
 }
 #menu .menu .nav-items a:hover {
   color: #000000;

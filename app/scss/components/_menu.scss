@@ -41,13 +41,14 @@
         text-transform: uppercase;
 
         &.comingsoon {
-          transition: .5s ease;
+
           &:after {
             content: 'Coming Soon';
             color: transparent;
             font-size: 15px;
             position: relative;
             left: -40px;
+            transition: .5s ease;
           }
         }
 
