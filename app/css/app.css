@@ -8349,15 +8349,17 @@ footer .fa:hover {
   }
 }
 .hero.work {
-  background-size: cover;
-  height: 90vh;
+  height: 100vh;
   background-position: center;
+  background-repeat: no-repeat;
 }
 .hero.work.foliomatch {
   background: url("../images/work/foliomatch/foliomatch-hero.jpg");
+  background-size: cover;
 }
 .hero.work.lost-paradise {
   background: url("../images/work/lost-paradise/lost-paradise-hero.jpg");
+  background-size: cover;
 }
 .hero.work:before {
   display: none;
