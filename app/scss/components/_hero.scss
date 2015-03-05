@@ -77,7 +77,7 @@
   margin-top: 100vh;
   background: white;
   padding: 100px 10%;
-  
+
 }
 
 
@@ -106,5 +106,25 @@
     .hero-description {
       font-size: 12px;
     }
+  }
+} //End .hero
+
+
+//Work Section
+.hero.work {
+  background-size: cover;
+  height: 90vh;
+  background-position: center;
+
+  &.foliomatch {
+    background: url("../images/work/foliomatch/foliomatch-hero.jpg");
+  }
+
+  &.lost-paradise {
+    background: url("../images/work/lost-paradise/lost-paradise-hero.jpg");
+  }
+
+  &:before {
+    display: none;
   }
 }

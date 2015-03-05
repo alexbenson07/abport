@@ -41,17 +41,19 @@
 
     &.briefcase {
       // background: blue;
-      background-image: url("../images/briefcase.jpg");
+      background-image: url("../images/work/foliomatch/foliomatch-thumb.jpg");
+      background-position: center;
 
       transition: 3s;
     }
 
     &.omnibox {
       background-image: url("../images/omnibox.jpg");
+      background-position: center;
     }
 
     &.lost-paradise {
-      background-image: url('../images/lost-paradise.jpg');
+      background-image: url('../images/work/lost-paradise/lost-paradise-thumb.jpg');
       background-position: center;
     }
 

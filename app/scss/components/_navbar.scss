@@ -79,3 +79,17 @@
       }
     }
   }
+
+
+.layout-light {
+  ul a li.logo {
+    background: url(../images/logo-dark.png) no-repeat center;
+    background-size: contain;
+
+    &:hover {
+      &:after {
+        color: black;
+      }
+    }
+  }
+}

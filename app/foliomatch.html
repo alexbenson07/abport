@@ -1,33 +1,33 @@
-<!DOCTYPE html>
+
 <html lang="en" class="no-js">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Alex Benson • UX and Graphic Design</title>
     <!-- build:css css/libraries.min.css-->
-    <link rel="stylesheet" href="css/icons.css">
-    <link rel="stylesheet" href="css/myfontswebfontskit.css">
-    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/icons.css"/>
+    <link rel="stylesheet" href="css/myfontswebfontskit.css"/>
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css"/>
     <!-- bower:css-->
     <!-- endbower-->
     <!-- endbuild-->
     <!-- build:css css/app.min.css-->
-    <link rel="stylesheet" href="bower_components/foundation/css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/app_override.css">
+    <link rel="stylesheet" href="bower_components/foundation/css/foundation.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="css/app_override.css"/>
     <!-- endbuild-->
     <!-- build:js js/vendor/modernizr.min.js-->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild-->
-    <link rel="stylesheet" href="js/reportcard/js/reportcard.css">
+    <link rel="stylesheet" href="js/reportcard/js/reportcard.css"/>
   </head>
   <body>
-    <div class="row layout-home">
+    <div class="row layout-light">
       <div class="navbar">
         <ul><a data-reveal-id="menu">
             <li class="logo"></li></a>
         </ul>
-        <div id="menu" data-reveal class="reveal-modal full">
+        <div id="menu" data-reveal="data-reveal" class="reveal-modal full">
           <div class="menu small-12 columns">
             <div class="container small-10 small-centered columns">
               <div class="logo close-reveal-modal"></div>
@@ -41,60 +41,8 @@
           </div>
         </div>
       </div>
-      <div class="hero">
-        <video preload autoplay muted loop poster="images/poster.jpg" class="hero-video">
-          <source src="images/hero-video1.webm" type="video/webm">
-          <source src="images/hero-video1.ogg" type="video/ogg">
-          <source src="images/hero-video1.mp4" type="video/mp4">
-        </video>
-        <p class="hero-description">My name is Alex Benson and I am skilled in</p>
-        <h1 class="hero-title">Graphic Design</h1><i class="fa fa-chevron-down down-arrow"></i>
-      </div>
-      <div id="services" class="content">
-        <div class="services small-10 small-centered columns">
-          <h3 class="section-title">Services</h3>
-          <ul class="inline-list">
-            <div data-service="design" class="service-wrapper hover"><i class="icon-pencil"></i>
-              <li>Graphic Design</li>
-            </div>
-            <div data-service="ux" class="service-wrapper"><i class="icon-genius"></i>
-              <li>User Experience</li>
-            </div>
-            <div data-service="dev" class="service-wrapper"><i class="icon-gears"></i>
-              <li>Web Development</li>
-            </div>
-            <div data-service="identity" class="service-wrapper"><i class="icon-strategy"></i>
-              <li>Identity Design</li>
-            </div>
-          </ul>
-          <p class="small-10 small-centered columns service-copy">Design excites me. Seeing something start as just an idea or scribble on a napkin and watching it take shape and grow into a living thing, its the best part of graphic design. Its what makes the hours of research and discovery, failed attempts and crumpled up sketches worth it. There’s nothing better than seeing your work have a positive impact for your client and their customers. I strive to make something better everytime. Thats what keeps me motivated.</p>
-          <p class="small-5 small-centered columns"> 
-          </p>
-        </div>
-      </div>
-      <div id="work" class="work"><a href="/lost-paradise.html" class="item lost-paradise small-12 columns">
-          <div class="copy small-8 small-centered columns">
-            <h2>Lost Paradise</h2>
-            <p>Reworking a project from a layout class, I developed this brand and all of its collateral. We were allowed to choose our own product. Not wanting to use lower quality imagery, I decided to create my own. From that decision, this brand was born.</p>
-          </div></a><a href="/foliomatch.html" class="item briefcase small-6 columns">
-          <div class="copy small-10 small-centered columns">
-            <h2>Foliomatch</h2>
-            <p>My very first design job, I came in with no prior experience in web design. During my time there I developed branding, designed their website, and crafted a web application interface for their product.</p>
-          </div></a>
-        <div class="item omnibox small-6 columns">
-          <div class="copy small-10 small-centered columns">
-            <h2>OmniBox.tv</h2>
-            <p>Reinventing the way people watch television, Omnibox is a set top box startup. I have designed packaging for their products, marketing materials, kiosk signage, and advised on user experience questions for their interface.</p>
-          </div>
-        </div>
-      </div>
-      <div id="hearsay" class="hearsay small-12 columns">
-        <div class="copy"><img src="images/apostrophe.png" class="apostrophe">
-          <h4 class="section-title">Hearsay</h4>
-          <p class="quote">Alex is an incredible designer and he kicks ass at cooking bacon, too.</p>
-          <h6 class="author">Nick Mallare, Briefcase</h6><img src="images/apostrophe.png" class="apostrophe right">
-        </div>
-      </div>
+      <div class="hero work foliomatch"><i class="fa fa-chevron-down down-arrow"></i></div>
+      <div class="content"></div>
     </div>
   </body>
   <footer>
@@ -150,5 +98,4 @@
       badgesAmount: 30
     });
   </script>
-  <script src="js/frontpage.js"></script>
 </html>

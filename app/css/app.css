@@ -8037,6 +8037,16 @@ li {
   transition: .3s ease;
 }
 
+/* #wrapper {
+  min-height:100%;
+  position:relative;
+
+  footer {
+    position:absolute;
+    bottom:0;
+  	left:0;
+  }
+} */
 .navbar {
   top: 0;
   z-index: 500;
@@ -8097,6 +8107,14 @@ li {
   /* opacity: 1; */
   color: white;
   bottom: -20px;
+}
+
+.layout-light ul a li.logo {
+  background: url(../images/logo-dark.png) no-repeat center;
+  background-size: contain;
+}
+.layout-light ul a li.logo:hover:after {
+  color: black;
 }
 
 footer {
@@ -8244,7 +8262,7 @@ footer .fa:hover {
   cursor: pointer;
 }
 
-.layout-home .hero {
+.hero {
   position: fixed;
   top: 0;
   left: 0;
@@ -8252,7 +8270,7 @@ footer .fa:hover {
   width: 100%;
   z-index: -100;
 }
-.layout-home .hero .hero-video {
+.hero .hero-video {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -8262,7 +8280,7 @@ footer .fa:hover {
   object-fit: cover;
   object-position: center center;
 }
-.layout-home .hero:before {
+.hero:before {
   content: '';
   height: 100%;
   width: 100%;
@@ -8271,7 +8289,7 @@ footer .fa:hover {
   top: 0;
   left: 0;
 }
-.layout-home .hero .hero-title, .layout-home .hero .hero-description {
+.hero .hero-title, .hero .hero-description {
   font-family: "Fjalla One", Tahoma, Geneva, sans-serif;
   font-size: 118px;
   margin-top: 50px;
@@ -8286,12 +8304,12 @@ footer .fa:hover {
   transform: translateY(-50%);
   transition: .3s ease;
 }
-.layout-home .hero .hero-description {
+.hero .hero-description {
   font-size: 22px;
   margin-top: 0;
   letter-spacing: .3em;
 }
-.layout-home .hero .down-arrow {
+.hero .down-arrow {
   position: absolute;
   color: rgba(255, 255, 255, 0.5);
   bottom: 50px;
@@ -8301,33 +8319,50 @@ footer .fa:hover {
   transition: 3s;
   cursor: pointer;
 }
-.layout-home .hero .down-arrow:hover {
+.hero .down-arrow:hover {
   bottom: 100px;
   color: rgba(255, 255, 255, 0.8);
   transition: 3s;
   cursor: pointer;
 }
-.layout-home .content {
+
+.content {
   margin-top: 100vh;
   background: white;
   padding: 100px 10%;
 }
+
 @media screen and (max-width: 800px) {
-  .layout-home .hero .hero-title, .layout-home .hero .hero-description {
+  .hero .hero-title, .hero .hero-description {
     font-size: 80px;
   }
-  .layout-home .hero .hero-description {
+  .hero .hero-description {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 515px) {
-  .layout-home .hero .hero-title, .layout-home .hero .hero-description {
+  .hero .hero-title, .hero .hero-description {
     font-size: 60px;
   }
-  .layout-home .hero .hero-description {
+  .hero .hero-description {
     font-size: 12px;
   }
 }
+.hero.work {
+  background-size: cover;
+  height: 90vh;
+  background-position: center;
+}
+.hero.work.foliomatch {
+  background: url("../images/work/foliomatch/foliomatch-hero.jpg");
+}
+.hero.work.lost-paradise {
+  background: url("../images/work/lost-paradise/lost-paradise-hero.jpg");
+}
+.hero.work:before {
+  display: none;
+}
+
 .layout-home .services h3 {
   text-align: center;
   text-transform: uppercase;
@@ -8449,14 +8484,16 @@ footer .fa:hover {
   left: 0;
 }
 .layout-home .work .item.briefcase {
-  background-image: url("../images/briefcase.jpg");
+  background-image: url("../images/work/foliomatch/foliomatch-thumb.jpg");
+  background-position: center;
   transition: 3s;
 }
 .layout-home .work .item.omnibox {
   background-image: url("../images/omnibox.jpg");
+  background-position: center;
 }
 .layout-home .work .item.lost-paradise {
-  background-image: url("../images/lost-paradise.jpg");
+  background-image: url("../images/work/lost-paradise/lost-paradise-thumb.jpg");
   background-position: center;
 }
 .layout-home .work .item .copy {
