@@ -63,14 +63,14 @@ a {
   color: $black;
   transition: 1s ease;
 
-  &:after {
+  /* &:after {
     content: '';
     height: 1px;
     width: 0%;
     background: black;
     display: block;
   }
-
+   */
   &:hover {
     transition: 1s ease;
 

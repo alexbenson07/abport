@@ -8077,13 +8077,26 @@ li {
   width: 100%;
 }
 .navbar ul a li.logo {
-  height: 70px;
-  width: 70px;
+  height: 110px;
+  width: 110px;
   background: url(../images/logo.png) no-repeat center;
   background-size: contain;
+  transition: .5s ease;
 }
 .navbar ul a li.logo:after {
-  display: none;
+  content: 'Click For Menu';
+  height: 10px;
+  width: 100%;
+  color: transparent;
+  background: transparent;
+  font-size: 11px;
+  bottom: 0px;
+  /* opacity: 0; */
+}
+.navbar ul a li.logo:hover:after {
+  /* opacity: 1; */
+  color: white;
+  bottom: -20px;
 }
 
 footer {
@@ -8313,13 +8326,14 @@ footer .fa:hover {
   font-family: "GalanoClassic-Regular", Helvetica, sans-serif;
   color: #000000;
   transition: 1s ease;
-}
-.layout-home a:after {
-  content: '';
-  height: 1px;
-  width: 0%;
-  background: black;
-  display: block;
+  /* &:after {
+    content: '';
+    height: 1px;
+    width: 0%;
+    background: black;
+    display: block;
+  }
+   */
 }
 .layout-home a:hover {
   transition: 1s ease;
