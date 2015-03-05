@@ -8122,6 +8122,17 @@ footer .container-bottom .bar {
   background: black;
   margin-top: 100px;
 }
+footer a {
+  color: black;
+}
+footer .fa {
+  margin-right: 15px;
+  transition: .3s ease;
+}
+footer .fa:hover {
+  color: #aaa;
+  cursor: pointer;
+}
 
 #menu {
   position: fixed;

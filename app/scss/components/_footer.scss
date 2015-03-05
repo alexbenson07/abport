@@ -35,7 +35,19 @@ footer {
     }
   }
 
+  a {
+    color: black;
+  }
 
+  .fa {
+    margin-right: 15px;
+    transition: .3s ease;
+
+    &:hover {
+      color: #aaa;
+      cursor: pointer;
+    }
+  }
 
   /* &:before {
     content: '';
