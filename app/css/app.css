@@ -8164,16 +8164,23 @@ footer .fa:hover {
   position: initial;
 }
 #menu .menu .logo:after {
+  transition: .5s ease;
   content: 'Click To Close';
   height: 10px;
   width: 100%;
-  color: black;
+  color: #ccc;
   font-size: 11px;
   position: relative;
   bottom: -100px;
   left: 9px;
   text-transform: uppercase;
+  text-align: center;
+  float: both;
   /* opacity: 0; */
+}
+#menu .menu .logo:hover:after {
+  /* letter-spacing: .1em; */
+  color: black;
 }
 #menu .menu .nav-items a {
   font-size: 34px;
