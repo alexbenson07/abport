@@ -95,16 +95,19 @@
   }
 }
 
-@media screen and (max-width: 515px) {
+@media screen and (max-width: 450px) {
   .hero {
     .hero-video {
 
     }
     .hero-title {
-      font-size: 60px;
+      font-size: 40px;
     }
     .hero-description {
-      font-size: 12px;
+      font-size: 14px;
+      width: 80%;
+      max-width: 256px;
+      margin: 0 auto;
     }
   }
 } //End .hero

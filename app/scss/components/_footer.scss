@@ -49,13 +49,24 @@ footer {
     }
   }
 
-  /* &:before {
-    content: '';
-    height: 100%;
-    width: 100%;
-    background: transparentize(white, .3);
-    position: absolute;
-    top: 0;
-    left: 0;
-  } */
+  @media screen and (max-width: 450px) {
+
+    div {
+      padding-bottom: 0;
+    }
+
+    .name,
+    .contact,
+    .copyright,
+    .social {
+      text-align: center!important;
+      float: none!important;
+    }
+    .copyright {
+      font-size: 12px;
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 6px;
+    }
+  }
 }

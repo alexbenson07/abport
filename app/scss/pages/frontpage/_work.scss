@@ -86,3 +86,11 @@
     transition: 0s;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .item {
+    .copy {
+      width: 100%;
+    }
+  }
+}

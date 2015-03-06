@@ -114,4 +114,17 @@
       }
     }
   }
+
+  @media screen and (max-width: 600px) {
+    .hearsay {
+      .apostrophe {
+        display: none;
+      }
+      .copy {
+        .quote {
+          font-size: 18px;
+        }
+      }
+    }
+  }
 }

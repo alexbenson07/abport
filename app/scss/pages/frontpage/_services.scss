@@ -105,9 +105,13 @@ a {
     }
     ul {
       display: block;
-      .wrapper {
-        width: 100%;
+      .service-wrapper {
         margin: 25px 0;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+        margin-bottom: 30px;
         li, i {
           color: black;
         }

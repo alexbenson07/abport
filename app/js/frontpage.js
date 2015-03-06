@@ -8,7 +8,7 @@ $(document).ready(function() {
       'Web Design',
       'Illustrator',
       'HTML5',
-      'CSS Preprocessors',
+      'SCSS',
       'Mobile Design',
       'Jade',
       'Responsive Design'

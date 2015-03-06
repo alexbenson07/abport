@@ -8123,15 +8123,6 @@ footer {
   background-position: center center;
   position: relative;
   min-height: 300px;
-  /* &:before {
-    content: '';
-    height: 100%;
-    width: 100%;
-    background: transparentize(white, .3);
-    position: absolute;
-    top: 0;
-    left: 0;
-  } */
 }
 footer .container {
   color: #000000;
@@ -8163,6 +8154,24 @@ footer .fa {
 footer .fa:hover {
   color: #aaa;
   cursor: pointer;
+}
+@media screen and (max-width: 450px) {
+  footer div {
+    padding-bottom: 0;
+  }
+  footer .name,
+  footer .contact,
+  footer .copyright,
+  footer .social {
+    text-align: center !important;
+    float: none !important;
+  }
+  footer .copyright {
+    font-size: 12px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 6px;
+  }
 }
 
 #menu {
@@ -8340,12 +8349,15 @@ footer .fa:hover {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 515px) {
+@media screen and (max-width: 450px) {
   .hero .hero-title, .hero .hero-description {
-    font-size: 60px;
+    font-size: 40px;
   }
   .hero .hero-description {
-    font-size: 12px;
+    font-size: 14px;
+    width: 80%;
+    max-width: 256px;
+    margin: 0 auto;
   }
 }
 .hero.work {
@@ -8444,11 +8456,15 @@ footer .fa:hover {
   .layout-home .services ul {
     display: block;
   }
-  .layout-home .services ul .wrapper {
-    width: 100%;
+  .layout-home .services ul .service-wrapper {
     margin: 25px 0;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 30px;
   }
-  .layout-home .services ul .wrapper li, .layout-home .services ul .wrapper i {
+  .layout-home .services ul .service-wrapper li, .layout-home .services ul .service-wrapper i {
     color: black;
   }
 }
@@ -8520,6 +8536,11 @@ footer .fa:hover {
   .layout-home .item {
     width: 100%;
     transition: 0s;
+  }
+}
+@media screen and (max-width: 600px) {
+  .layout-home .item .copy {
+    width: 100%;
   }
 }
 .layout-home .hearsay {
@@ -8607,6 +8628,15 @@ footer .fa:hover {
     margin-bottom: 30px;
   }
 }
+@media screen and (max-width: 1000px) and (max-width: 600px) {
+  .layout-home .hearsay .apostrophe {
+    display: none;
+  }
+  .layout-home .hearsay .copy .quote {
+    font-size: 18px;
+  }
+}
+
 .layout-home .badges {
   background: #FFFFFF;
 }
