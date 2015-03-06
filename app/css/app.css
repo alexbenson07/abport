@@ -8270,6 +8270,45 @@ footer .fa:hover {
   color: #aaa;
   cursor: pointer;
 }
+@media screen and (max-width: 450px) {
+  #menu {
+    padding: 5%;
+  }
+  #menu .menu {
+    padding: 0;
+  }
+  #menu .menu .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  #menu .menu .container .nav-items {
+    width: 100%;
+    margin-top: 30px;
+  }
+  #menu .menu .container .nav-items a {
+    font-size: 24px;
+    height: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #menu .menu .container .nav-items a.comingsoon {
+    display: none;
+  }
+  #menu .menu .container .nav-items a.comingsoon:after {
+    position: absolute;
+  }
+  #menu .menu .container .contact {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+  }
+  #menu .menu .container .contact a {
+    font-size: 18px;
+    line-height: 34px;
+    display: inline-block;
+  }
+}
 
 .hero {
   position: fixed;
