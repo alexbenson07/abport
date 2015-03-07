@@ -8683,4 +8683,18 @@ footer .fa:hover {
   background: #FFFFFF;
 }
 
+@media screen and (max-width: 1025px) {
+  .lost-paradise .content .copy {
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .lost-paradise .content .copy h1 {
+    text-align: center !important;
+  }
+}
+.lost-paradise .content .secondary-copy {
+  margin-top: 30px;
+}
+
 /*# sourceMappingURL=app.css.map */
