@@ -1,0 +1,19 @@
+.work {
+  .content {
+    .copy {
+
+      @media screen and (max-width: 1025px) {
+        text-align: center!important;
+      }
+
+        h1 {
+          @media screen and (max-width: 1025px) {
+            text-align: center!important;
+          }
+        }
+      }
+      .secondary-copy {
+        margin-top: 30px;
+      }
+    }
+  }

@@ -8404,15 +8404,14 @@ footer .fa:hover {
 }
 .hero.work {
   height: 100vh;
-  background-position: center;
   background-repeat: no-repeat;
 }
 .hero.work.foliomatch {
-  background: url("../images/work/foliomatch/foliomatch-hero.jpg");
+  background: url("../images/work/foliomatch/foliomatch-hero.jpg") center;
   background-size: cover;
 }
 .hero.work.lost-paradise {
-  background: url("../images/work/lost-paradise/lost-paradise-hero.jpg");
+  background: url("../images/work/lost-paradise/lost-paradise-hero.jpg") center;
   background-size: cover;
 }
 .hero.work:before {
@@ -8684,16 +8683,16 @@ footer .fa:hover {
 }
 
 @media screen and (max-width: 1025px) {
-  .lost-paradise .content .copy {
+  .work .content .copy {
     text-align: center !important;
   }
 }
 @media screen and (max-width: 1025px) {
-  .lost-paradise .content .copy h1 {
+  .work .content .copy h1 {
     text-align: center !important;
   }
 }
-.lost-paradise .content .secondary-copy {
+.work .content .secondary-copy {
   margin-top: 30px;
 }
 

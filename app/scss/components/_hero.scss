@@ -116,12 +116,12 @@
 //Work Section
 .hero.work {
   &.foliomatch {
-    background: url("../images/work/foliomatch/foliomatch-hero.jpg");
+    background: url("../images/work/foliomatch/foliomatch-hero.jpg") center;
     background-size: cover;
   }
 
   &.lost-paradise {
-    background: url("../images/work/lost-paradise/lost-paradise-hero.jpg");
+    background: url("../images/work/lost-paradise/lost-paradise-hero.jpg") center;
     background-size: cover;
   }
 
@@ -129,6 +129,5 @@
     display: none;
   }
   height: 100vh;
-  background-position: center;
   background-repeat: no-repeat;
 }
