@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 		sass: {
 			dist: {
 				options: {
-					style: 'expanded', // expanded or nested or compact or compressed
+					style: 'compressed', // expanded or nested or compact or compressed
 					loadPath: '<%= app %>/bower_components/foundation/scss',
 					compass: true,
 					quiet: true
@@ -79,9 +79,9 @@ module.exports = function(grunt) {
 			target: {
 				files: [{
 					expand: true,
-					cwd: '<%= app %>/images/',
+					cwd: '<%= app %>/images-pre/',
 					src: ['**/*.{jpg,gif,svg,jpeg,png}'],
-					dest: '<%= dist %>/images/'
+					dest: '<%= app %>/images/'
 				}]
 			}
 		},
@@ -171,7 +171,7 @@ module.exports = function(grunt) {
 	grunt.registerTask('compile-sass', ['sass']);
 	grunt.registerTask('bower-install', ['wiredep']);
 
-	grunt.registerTask('default', ['compile-jade', 'compile-sass', 'bower-install', 'connect:app', 'watch']);
+	grunt.registerTask('default', ['compile-jade', 'compile-sass', 'bower-install', 'connect:app', 'imagemin', 'watch']);
 	grunt.registerTask('validate-js', ['jshint']);
 	grunt.registerTask('server-dist', ['connect:dist']);
 
