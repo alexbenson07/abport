@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 					quiet: true
 				},
 				files: {
-					'<%= app %>/css/app.css': '<%= app %>/scss/app.scss'
+					'<%= app %>/css/styles.css': '<%= app %>/scss/styles.scss'
 				}
 			}
 		},
