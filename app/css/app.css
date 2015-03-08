@@ -8270,7 +8270,7 @@ footer .fa:hover {
   color: #aaa;
   cursor: pointer;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   #menu {
     padding: 5%;
   }
@@ -8514,6 +8514,14 @@ footer .fa:hover {
   background: black;
   text-align: center;
   background-size: cover;
+  /* &.comingsoon {
+    &:before {
+      content: 'Coming Soon';
+      height: 25px;
+      font-size: 23px;
+      color: white;
+    }
+  } */
 }
 .layout-home .work .item:before {
   content: '';
