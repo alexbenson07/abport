@@ -62,12 +62,26 @@
           }
         }
 
+        &.wip {
+
+          &:after {
+            content: 'Work In Progress';
+            color: transparent;
+            font-size: 15px;
+            position: relative;
+            left: -40px;
+            transition: .5s ease;
+          }
+        }
+
+
         &:hover {
           color: $black;
           cursor: pointer;
           letter-spacing: .05em;
 
-          &.comingsoon {
+          &.comingsoon,
+          &.wip {
             &:after {
               color: #9B9B9B;
               left: 30px;

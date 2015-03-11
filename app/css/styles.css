@@ -9007,12 +9007,20 @@ footer .fa:hover {
   left: -40px;
   transition: .5s ease;
 }
+#menu .menu .nav-items a.wip:after {
+  content: 'Work In Progress';
+  color: transparent;
+  font-size: 15px;
+  position: relative;
+  left: -40px;
+  transition: .5s ease;
+}
 #menu .menu .nav-items a:hover {
   color: #000000;
   cursor: pointer;
   letter-spacing: .05em;
 }
-#menu .menu .nav-items a:hover.comingsoon:after {
+#menu .menu .nav-items a:hover.comingsoon:after, #menu .menu .nav-items a:hover.wip:after {
   color: #9B9B9B;
   left: 30px;
   letter-spacing: 0.3em;
