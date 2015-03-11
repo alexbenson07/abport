@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 		sass: {
 			dist: {
 				options: {
-					style: 'expanded', // expanded or nested or compact or compressed
+					style: 'compressed', // expanded or nested or compact or compressed
 					loadPath: '<%= app %>/bower_components/foundation/scss',
 					compass: true,
 					quiet: true
