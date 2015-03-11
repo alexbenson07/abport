@@ -57,6 +57,11 @@
       background-position: center;
     }
 
+    &.ymca {
+      background-image: url('../images/work/ymca/ymca-thumb.jpg');
+      background-position: center;
+    }
+
     .copy {
       position: relative;
       top: 50%;
@@ -65,7 +70,8 @@
         transform: translateY(-50%);
 
         h2,
-        p {
+        p,
+        em {
           color: white;
           font-family: $light;
         }
