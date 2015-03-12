@@ -8,6 +8,8 @@
 // Make sure the charset is set appropriately
 @charset "UTF-8";
 
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,900,300,700);
+
 // Behold, here are all the Foundation components.
   @import "foundation/components/grid";
   @import "foundation/components/accordion";
@@ -55,3 +57,4 @@
   // Front page styles
   @import "pages/frontpage/manifest";
   @import "pages/work/manifest";
+  @import "pages/resume/manifest";

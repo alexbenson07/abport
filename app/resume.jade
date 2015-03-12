@@ -2,7 +2,98 @@ doctype html
 html(class="no-js", lang="en")
   include header
   body
-    .row.layout-home
+    #resume
       include navbar
-      include hero
-        h1.hero-title Something Else
+      section.row.header
+        .copy.small-6.small-centered.columns.text-center
+          h1.title Resume
+          h4.subhead And Some Other Info
+      section.row.about.dark
+        .copy.small-10.small-centered.columns.text-center
+          h1.title About
+          h4.subhead Why I Do What I Do
+          p.small-10.small-centered.columns Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod.
+          p.small-10.small-centered.columns Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod.
+      section.row.work
+        .copy.small-10.small-centered.columns.text-center
+          h1.title Work
+          h4.subhead Professional Experience
+          .positions.row
+            .small-4.columns
+              .position.wrapper.foliomatch
+                .circle
+                h3.employer Foliomatch
+                h4.title Creative Director
+                h5.date May '13 - October '13
+                p.description Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+            .small-4.columns
+              .position.wrapper.briefcase
+                .circle
+                h3.employer Briefcase
+                h4.title Director of User Experience
+                h5.date October '13 - August '14
+                p.description Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.        
+            .small-4.columns
+              .position.wrapper.koalas
+                .circle
+                h3.employer CodeKoalas
+                h4.title Full Stack Designer
+                h5.date August '14 - Current
+                p.description Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur.
+      section.row.skills.dark
+        .copy.small-10.small-centered.columns.text-center
+          h1.title Skills
+          h4.subhead Cool Stuff I Can Do
+          .skills-icons.small-10.small-centered.columns
+            .icon-wrapper.small-6.medium-2.columns
+              i
+              p Sketch
+            .icon-wrapper.small-6.medium-2.columns
+              i
+              p Sketch
+            .icon-wrapper.small-6.medium-2.columns
+              i
+              p Sketch
+            .icon-wrapper.small-6.medium-2.columns
+              i
+              p Sketch
+            .icon-wrapper.small-6.medium-2.columns
+              i
+              p Sketch
+            .icon-wrapper.small-6.medium-2.columns
+              i
+              p Sketch
+            .icon-wrapper.small-6.medium-2.columns
+              i
+              p Sketch
+            .icon-wrapper.small-6.medium-2.columns
+              i
+              p Sketch
+            .icon-wrapper.small-6.medium-2.columns
+              i
+              p Sketch
+            .icon-wrapper.small-6.medium-2.columns
+              i
+              p Sketch
+            .icon-wrapper.small-6.medium-2.columns
+              i
+              p Sketch
+            .icon-wrapper.small-6.medium-2.columns
+              i
+              p Sketch
+      section.row.education
+        .copy.small-8.small-centered.columns.text-center
+          h1.title Education
+          h4.subhead Not Everything Learned Is In The Classroom
+          p Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis.
+          p Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+          .degrees
+            .ai
+              h2.degree Graphic Design, AA
+              h6.location Art Institutes International - Kansas City
+              //- span.time March 2015
+            .treehouse
+              h2.degree Front End Development
+              h6.location www.TeamTreehouse.com
+              //- span.time ongoing
+      include footer

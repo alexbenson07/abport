@@ -1,0 +1,33 @@
+.education {
+  .degrees {
+    margin-top: 60px;
+    position: relative;
+
+    .ai {
+      margin-bottom: 50px;
+    }
+
+    .degree {
+      letter-spacing: .2em;
+      font-size: 38px;
+      font-family: $thin;
+      text-transform: uppercase;
+
+    }
+    .location {
+      font-family: $serif;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+    }
+    .time {
+      opacity: .3;
+      font-family: $bold;
+      font-size: 60px;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      position: absolute;
+      z-index: -1;
+    }
+  }
+}

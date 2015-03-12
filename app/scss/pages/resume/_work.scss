@@ -1,0 +1,32 @@
+.work {
+  .position.wrapper {
+    .circle {
+      height: 50px;
+      width: 50px;
+      background-color: #000;
+      margin: 0 auto 20px;
+      border-radius: 50%;
+    }
+    .employer {
+      font-family: $light;
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: .2em;
+      margin-bottom: 10px;
+    }
+    .title {
+      font-size: 14px;
+      font-family: $regular;
+      letter-spacing: .1em;
+      margin-bottom: 5px;
+    }
+    .date {
+      font-family: $light;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    .description {
+
+    }
+  }
+}
