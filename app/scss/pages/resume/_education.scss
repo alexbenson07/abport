@@ -13,6 +13,10 @@
       font-family: $ex-light;
       text-transform: uppercase;
 
+      @media screen and (max-width: 800px) {
+        font-size: 24px;
+      }
+
     }
     .location {
       font-family: $serif;
@@ -39,5 +43,10 @@
   }
   .treebadge {
     margin-bottom: 30px;
+  }
+  .badges {
+    @media screen and (max-width: 800px) {
+      display: none;
+    }
   }
 }
