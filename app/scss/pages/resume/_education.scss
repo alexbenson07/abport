@@ -45,8 +45,20 @@
     margin-bottom: 30px;
   }
   .badges {
+    display: flex;
+    justify-content: center;
     @media screen and (max-width: 800px) {
       display: none;
+    }
+    li {
+      -webkit-filter: saturate(0);
+      transition: .3s;
+      &:hover {
+        -webkit-filter: saturate(1);
+      }
+    }
+    .more-badges{
+      display: none!important;
     }
   }
 }
