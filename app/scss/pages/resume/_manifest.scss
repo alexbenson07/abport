@@ -2,12 +2,14 @@
   section {
     padding-top: 50px;
     padding-bottom: 50px;
+    transition: 1s ease;
 
     .title {
       text-transform: uppercase;
       letter-spacing: .2em;
       margin-bottom: -5px;
       font-size: 50px;
+      transition: 1s ease;
     }
     .subhead {
       font-family: $serif;
@@ -19,6 +21,13 @@
     }
 
     .copy {
+    }
+
+
+    &:hover {
+      .title {
+        letter-spacing: .3em;
+      }
     }
   }
   .dark {

@@ -1,11 +1,11 @@
 .work {
   .position.wrapper {
-    .circle {
-      height: 50px;
-      width: 50px;
-      background-color: #000;
-      margin: 0 auto 20px;
-      border-radius: 50%;
+    .logo {
+      height: 75px;
+      width: 75px;
+      margin: 0 auto 30px;
+      -webkit-filter: saturate(0);
+      transition: .3s ease;
     }
     .employer {
       font-family: $light;
@@ -27,6 +27,34 @@
     }
     .description {
 
+    }
+    &.foliomatch {
+      .logo {
+        background: url('../images/work/foliomatch/folio-logo.png') center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+    &.koalas {
+      .logo {
+        background: url('../images/koala-logo.png') center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+    &.briefcase {
+      .logo {
+        background: url('../images/briefcase-logo.png') center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+
+    &:hover {
+      .logo {
+        -webkit-filter: saturate(1);
+
+      }
     }
   }
 }
