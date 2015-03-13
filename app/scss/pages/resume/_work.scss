@@ -63,6 +63,9 @@
       .small-4 {
         width: 100%;
         margin-bottom: 30px;
+        .logo {
+          -webkit-filter: saturate(1);
+        }
       }
     }
   }
