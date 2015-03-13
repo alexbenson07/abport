@@ -159,7 +159,8 @@
             text-align: center;
             margin-bottom: 10px;
 
-            &.comingsoon {
+            &.comingsoon,
+            &.wip {
               display: none;
 
               &:after {

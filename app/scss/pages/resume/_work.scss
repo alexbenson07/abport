@@ -57,4 +57,13 @@
       }
     }
   }
+
+  @media screen and (max-width: 800px) {
+    .positions {
+      .small-4 {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+  }
 }
