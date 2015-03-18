@@ -10,7 +10,7 @@
   .apostrophe {
     position: absolute;
     left: -60px;
-    top: -75px;
+    top: -10px;
     height: auto;
     width: 230px;
     opacity: .5;
@@ -37,7 +37,7 @@
     }
 
     .section-title {
-      font-family: $accent-type;
+      font-family: $regular;
       font-size: 22px;
       letter-spacing: .3em;
       text-transform: uppercase;
@@ -47,13 +47,18 @@
     }
 
     .quote {
-      font-family: $light;
-      font-size: 24px;
+      font-family: $ex-light;
+      font-size: 19px;
       letter-spacing: .1em;
+
+      margin: 0 auto;
+      width: 70%;
+      margin-bottom: 30px;
+
     }
 
     .author {
-      font-family: $accent-type;
+      font-family: $regular;
       font-size: 16px;
       text-transform: uppercase;
       letter-spacing: .07em;
@@ -64,7 +69,7 @@
     .apostrophe {
       left: -55px;
       transition: 5s;
-      width: 300px;
+      width: 250px;
       opacity: .8;
 
       &.right {
