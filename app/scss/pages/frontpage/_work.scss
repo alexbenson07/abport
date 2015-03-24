@@ -13,7 +13,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      transition: 1.5s;
+      transition: 1s;
     }
 
     &:hover {
@@ -29,13 +29,35 @@
 
       &:before {
         content: '';
-        transition: 1.5s;
+        transition: 1s;
         height: 100%;
         width: 100%;
         background: transparentize(black, .2);
         position: absolute;
         top: 0;
         left: 0;
+      }
+
+      &.lost-paradise {
+        &:hover {
+          &:before{
+            background: transparentize(#b22222, .2);
+          }
+        }
+      }
+      &.briefcase {
+        &:hover {
+          &:before{
+            background: transparentize(#e44b25, .2);
+          }
+        }
+      }
+      &.ymca {
+        &:hover {
+          &:before{
+            background: transparentize(#33B1E7, .2);
+          }
+        }
       }
     }
 
