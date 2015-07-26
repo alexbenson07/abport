@@ -20,6 +20,10 @@
       transition: 3s;
       cursor: pointer;
 
+      img {
+        filter: blur(20px);
+      }
+
       &.foliomatch,
       &.briefcase,
       &.omnibox {
@@ -59,6 +63,13 @@
           }
         }
       }
+      &.player-card {
+        &:hover {
+          &:before{
+            background: transparentize(#343c87, .2);
+          }
+        }
+      }
     }
 
     &.briefcase {
@@ -80,7 +91,17 @@
     }
 
     &.ymca {
-      background-image: url('../images/work/ymca/ymca-thumb.jpg');
+      background-image: url('../images/work/ymca/sociy-hero.jpg');
+      background-position: center;
+    }
+
+    &.parisi {
+      background-image: url('/images/work/parisi/parisi-hero.jpg');
+      background-position: center;
+    }
+
+    &.player-card {
+      background-image: url('/images/work/player-card/russell-wilson.jpg');
       background-position: center;
     }
 
