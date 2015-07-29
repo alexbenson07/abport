@@ -5,6 +5,19 @@
     text-align: center;
     background-size: cover;
 
+    &.small-4.columns {
+      height: 250px;
+    }
+
+    &.featured {
+      h2 {
+        font-size: 54px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+
     &:before {
       content: '';
       height: 100%;
@@ -49,10 +62,11 @@
           }
         }
       }
-      &.briefcase {
+      &.foliomatch {
         &:hover {
           &:before{
-            background: transparentize(#e44b25, .2);
+            // background: transparentize(#e44b25, .2);
+            background: transparentize(#2d3e50, .2);
           }
         }
       }
@@ -66,13 +80,13 @@
       &.player-card {
         &:hover {
           &:before{
-            background: transparentize(#343c87, .2);
+            background: transparentize(#343c87, .1);
           }
         }
       }
     }
 
-    &.briefcase {
+    &.foliomatch {
       // background: blue;
       background-image: url("../images/work/foliomatch/foliomatch-thumb.jpg");
       background-position: center;
