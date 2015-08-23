@@ -93,3 +93,22 @@
     }
   }
 }
+
+
+.contact {
+  .other-links {
+    margin-top: 50px;
+
+    h5 {
+      // margin-bottom: -10px;
+    }
+    a {
+      line-height: 24px!important;
+      transition: .5s ease;
+      display: block!important;
+      &:hover {
+        letter-spacing: .05em;
+      }
+    }
+  }
+}
